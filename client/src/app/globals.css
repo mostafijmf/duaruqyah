@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.scrollBar::-webkit-scrollbar {
+    width: 0.5rem;
+    background: #eeeeee;
+}
+
+.scrollBar::-webkit-scrollbar-thumb {
+    background:  #c6c6c6;
+    border-radius: 0.5rem;
+}
+
+/* .scrollBar-none::-webkit-scrollbar {
+    width: 0;
+} */
